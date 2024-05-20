@@ -1,0 +1,185 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#main {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    margin: 10px auto;
+    max-width: 1250px;
+}
+
+.sideNav {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    margin-left: 10px;
+}
+
+.sideNav-Profile {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.sideNav-Profile img {
+    width: 100%;
+}
+
+.sideNav-ul {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.sideNav-ul li {
+    list-style: none;
+    cursor: pointer;
+    display: grid;
+    place-items: center;
+    padding: 5px 0px;
+    border-radius: 5px;
+}
+
+.sideNav-ul li:hover {
+    background-color: rgb(224, 237, 248);
+}
+
+.firstPart {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.firstPart h1 {
+    font-size: 40px;
+    font-weight: 500;
+    background: linear-gradient(to right, darkblue, darkorchid);
+    color: transparent;
+    background-clip: text;
+}
+
+.firstPart-ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+.firstPart-ul li {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.firstPart-ul li img {
+    height: 150px;
+    width: 150px;
+    border-radius: 15px;
+}
+
+.secondPart {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.secondPart-top {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.secondPart-top h1 {
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.data-box {
+    display: flex;
+    gap: 10px;
+    background-color: #eee;
+    padding: 15px 10px;
+    border-radius: 15px;
+    align-items: center;
+}
+
+.data-sheet {
+    height: 30px;
+    width: 30px;
+    background: linear-gradient(white, white) padding-box,
+        linear-gradient(to right, #dadada 40%, darkorchid) border-box;
+    border-radius: 50em;
+    border: 4px solid transparent;
+}
+
+.secondPart-mid {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.secondPart-mid ul {
+    display: flex;
+    gap: 20px;
+}
+
+.secondPart-mid ul li {
+    list-style: none;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.secondPart-mid ul li:hover {
+    text-decoration: underline;
+}
+
+.slots-box {
+    display: flex;
+    gap: 20px;
+}
+
+.left-slot {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.right-slot ul {
+    display: flex;
+    gap: 15px;
+}
+
+.right-slot ul li {
+    list-style: none;
+    border: 3px solid #0000005c;
+    border-radius: 50%;
+    padding: 5px;
+    display: grid;
+    place-items: center;
+}
+
+.dashboard-images {
+    position: relative;
+    overflow: hidden;
+}
+
+.dashboard-images img {
+    border-radius: 15px;
+}
+
+.absolute-img {
+    background-image: url(https://img.freepik.com/premium-photo/full-shot-woman-holding-baggage_23-2149153252.jpg?w=360);
+    position: absolute;
+    height: 170px;
+    width: 100%;
+    border-radius: 15px;
+    z-index: 11;
+    bottom: 0px;
+    background-position: bottom;
+    rotate: 10deg;
+}
